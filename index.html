@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Shayana</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="experience.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
+
 <body>
     <header class="header">
         <a href="#" class="logo"><span>Shayana Shrestha</span></a>
@@ -26,7 +31,74 @@
                 <a href="#contact">Contact</a>
             </li>
         </ul>
+
+        <i class="fa-regular fa-bars" id="menu-icon"></i>
+
+        <button class="visit-btn">Visit GitHub</button>
     </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="image.jpg" alt="">
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I am </h3>
+                    <h1>Shayana Shrestha</h1>
+                    <span>Graduate Teaching Assistant | Software Engineer</span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn">Download CV</div>
+                    <div class="btn">Contact</div>
+                </div>
+
+                <div class="socials">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-person-chalkboard"></i>
+                    <span>Graduate Teaching Assistant</span>
+                    <h2>University of Tennessee, Knoxville</h2>
+                    <h3>August 2024 - Present</h3>
+                    <p>short paragraph</p>
+                </div>
+                
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Applications Developer Intern</span>
+                    <h3>May 2025 - August 2025</h3>
+                    <p>short paragraph</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>Associate Software Engineer</span>
+                    <h3>March 2022 - July 2024</h3>
+                    <p>short paragraph</p>
+                </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>Web Developer</span>
+                    <h3>June 2018 - March 2019</h3>
+                    <p>short paragraph</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
+
 </html>
